@@ -1,0 +1,32 @@
+ul li {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    color: black;
+    margin: 10px;
+    list-style: none;
+}
+.r_a {
+    background-color: red;
+    color: white;
+}
+.image {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+.tag {
+    list-style: none;
+    color: white;
+    background-color: orange;
+}
+
+.haihu1 {
+    list-style: none;
+}
+.line {
+    border-style: solid;
+    border-width: 0;
+    border-bottom-width: 3px;
+    border-color: orange;
+}
