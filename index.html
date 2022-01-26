@@ -12,15 +12,26 @@
     </head>
     <body>
         <div class="tag">
-        <!--classはcssでのカテゴリー分けに使える-->
+               <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+        <!-- 1つめ -->
         <li itemprop="itemListElement" itemscope
             itemtype="https://schema.org/ListItem">
-            <a itemprop="item" href="haihu.html">
-                <span itemprop="name">ホーム</span>
-            </a>
-            <meta itemprop="position" content="2" />
+          <a itemprop="item" href="home.html">
+              <span itemprop="name">ホーム</span>
+          </a>
+          <meta itemprop="position" content="1" />
         </li>
-        </div>
+      
+        <!-- 2つめ -->
+        <li itemprop="itemListElement" itemscope
+            itemtype="https://schema.org/ListItem">
+          <a itemprop="item" href="haihu.html">
+              <span itemprop="name">配布所</span>
+          </a>
+          <meta itemprop="position" content="2" />
+        </li>
+      </ol>
+        <!--classはcssでのカテゴリー分けに使える-->
         <div class="r_a">
         <h1>キングペンギンの巣にようこそ</h1>
         <!--h1～h6までありサイズは数字が小さいほど大きい-->
